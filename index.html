@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Branko Lukic - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik:wght@300;400;500;600;700;800;900&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">Port<span>folio</span></a>
+      <!-- <a href="#" class="logo2 hidden">Branko<span> Lukic</span></a> -->
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-text">
+        <h5>Hello, I am</h5>
+        <h1>Branko Lukic</h1>
+        <h5>Front End Developer</h5>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="images/programmer.png" />
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2><span>My</span> Skills</h2>
+      <div class="skill-container">
+        <div class="skill-box">
+          <img src="images/skills/html.svg" alt="" />
+          <h3>HTML 5</h3>
+        </div>
+        <div class="skill-box">
+          <img src="images/skills/css.svg" alt="" />
+          <h3>CSS 3</h3>
+        </div>
+        <div class="skill-box">
+          <img src="images/skills/javascript.svg" alt="" />
+          <h3>Java Script</h3>
+        </div>
+        <div class="skill-box">
+          <img src="images/skills/react.svg" alt="" />
+          <h3>React</h3>
+        </div>
+        <div class="skill-box">
+          <img src="images/skills/nodejs.svg" alt="" />
+          <h3>Node JS</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2><span>Latest </span>Projects</h2>
+      <div class="projects-container">
+        <div class="project-box">
+          <img src="images/projects/web shop.png" alt="" />
+          <div class="layer">
+            <h5>Web Shop</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              quaerat magnam ducimus saepe aliquam.
+            </p>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="images/projects/calculator.png" alt="" />
+          <div class="layer">
+            <h5>Calculator</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              quaerat magnam ducimus saepe aliquam.
+            </p>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="images/projects/organizer.png" alt="" />
+          <div class="layer">
+            <h5>Planner</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              quaerat magnam ducimus saepe aliquam.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about.jpg" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          explicabo repudiandae, distinctio enim pariatur modi aperiam,
+          laudantium consequatur, error recusandae laborum quam possimus ex
+          quibusdam? Vero recusandae porro quisquam fuga!Praesentium explicabo
+          repudiandae, distinctio enim pariatur modi aperiam, laudantium
+          consequatur, error recusandae laborum quam possimus ex quibusdam? Vero
+          recusandae porro quisquam fuga!
+        </p>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me!</span></h2>
+        <h3><span>Branko Lukic</span></h3>
+
+        <div class="list">
+          <li>0605875895</li>
+          <li>brankolukicbk@gmail.com</li>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <input type="name" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea
+          name=""
+          id=""
+          cols="35"
+          rows="10"
+          placeholder="Message.."
+        ></textarea>
+        <input type="submit" value="Send Message" class="submit" />
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
